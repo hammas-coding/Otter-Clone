@@ -1,0 +1,48 @@
+.homeMain {
+  margin-top: 50px;
+}
+.main {
+  background-color: #fafafc;
+  padding: 1rem;
+  padding-top: 1rem;
+}
+.date {
+  font-size: 1.5rem;
+  color: grey;
+  font-weight: 600;
+}
+.inner {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; 
+}
+.flex {
+  margin: 0;
+  display: flex;
+}
+.title {
+  margin: 0.25rem 0;
+  font-weight: 600;
+}
+.flex p {
+  margin-right: 0.5rem;
+  font-size: 0.85rem;
+  color: grey;
+}
+.normal {
+  font-size: 1rem;
+  color: #000;
+}
+.inner:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5); 
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  .homeMain {
+    margin-top: 0px;
+  }
+}
